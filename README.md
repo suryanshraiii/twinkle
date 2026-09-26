@@ -20,7 +20,22 @@ npm run lint
 
 `dist/` is the complete static website. For browser checks, start the dev server, then run `npm test`. On a new machine, first run `npx playwright install chromium`.
 
-## Publish on Vercel and send one URL
+## GitHub Pages
+
+Published from the `main` branch’s `docs/` folder at https://suryanshraiii.github.io/twinkle/.
+
+To publish future edits:
+
+```sh
+npm run build:pages
+git add .
+git commit -m "Update movie night"
+git push
+```
+
+GitHub Pages deploys the updated `docs/` files. Relative asset paths support the `/twinkle/` URL.
+
+## Alternative: Vercel
 
 Vercel configuration is included. In this project folder:
 
