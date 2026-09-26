@@ -1,0 +1,7 @@
+Generated with built-in imagegen.
+
+lily-sticker-pink.png (transparent_background: true)
+Use case: stylized-concept. Asset type: website decorative sticker. Generate a portrait, isolated transparent-background bouquet of exactly three large white lily blossoms with delicate pale pink petal blush, rich sage-green leaves and golden-yellow stamens. Playful paper collage photographic cutout with a subtle clean white sticker outline. Expressive asymmetrical cluster, all petals fully in frame, little empty margin, intended for repeated decorations in a bold playful pink cinema website. Realistic botanical textures, soft light. Actual alpha transparency surrounding the whole bouquet, no opaque background, no text, no watermark, no vase, no hands.
+
+social-card-pink.png (transparent_background: false)
+Use case: ads-marketing. Asset type: website social sharing card. Landscape 1.91:1 composition. Bold bubblegum pink #ff91bd flat background with a thin dark plum inset border. Main exact typography 'Twinkle’s Movie Night' in very large dark plum chunky condensed editorial type centered and broken into two balanced lines. Smaller exact tagline 'You pick the movie. I’ll bring the snacks.' centered beneath. Photographic white lily sticker collage in two diagonal corners, petals with pale pink blush, sage leaves, golden stamens, thin white sticker edge. Small butter-yellow star accents. Playful confident scrapbook cinema date invitation style, generous legibility, no other text or logos. Keep all typography comfortably in frame.
