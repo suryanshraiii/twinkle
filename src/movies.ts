@@ -1,4 +1,4 @@
-export interface Movie { id: string; title: string; year: number; description: string; short: string; tags: string[]; why: string; runtime: number; color: string; posterUrl: string; }
+export interface Movie { id: string; title: string; year: number; description: string; short: string; tags: string[]; why: string; runtime: number; color: string; posterUrl: string; filterTags?: string[]; }
 export const movies: Movie[] = [
   {
     "id": "notting-hill",
@@ -16,6 +16,28 @@ export const movies: Movie[] = [
     "runtime": 124,
     "color": "#425d63",
     "posterUrl": "./posters/notting-hill.jpg"
+  },
+  {
+    "id": "before-sunrise",
+    "title": "Before Sunrise",
+    "year": 1995,
+    "description": "Two strangers meet on a train in Europe and spontaneously decide to spend one night walking around Vienna together, talking about life, love, relationships and everything in between.",
+    "short": "One train, one night in Vienna, and a conversation worth staying for.",
+    "tags": [
+      "Intimate",
+      "Conversational",
+      "Slow Burn",
+      "90s",
+      "Talky"
+    ],
+    "why": "Two people walking around Europe talking for an entire night should not be this romantic, but somehow it is.",
+    "runtime": 101,
+    "color": "#9d5576",
+    "posterUrl": "./posters/before-sunrise.jpg",
+    "filterTags": [
+      "Classics",
+      "Slow Burn"
+    ]
   },
   {
     "id": "how-to-lose-a-guy-in-10-days",
@@ -67,6 +89,27 @@ export const movies: Movie[] = [
     "runtime": 101,
     "color": "#9d7c72",
     "posterUrl": "./posters/a-walk-to-remember.jpg"
+  },
+  {
+    "id": "me-before-you",
+    "title": "Me Before You",
+    "year": 2016,
+    "description": "A cheerful young woman becomes a caregiver for a man whose life changed dramatically after an accident, and the two form a deeply meaningful connection.",
+    "short": "An unlikely connection changes two lives in unexpected ways.",
+    "tags": [
+      "Emotional",
+      "Sweet",
+      "Romantic",
+      "Tearjerker"
+    ],
+    "why": "For when movie night apparently needs emotional damage.",
+    "runtime": 110,
+    "color": "#9d5576",
+    "posterUrl": "./posters/me-before-you.jpg",
+    "filterTags": [
+      "Emotional",
+      "Slow Burn"
+    ]
   },
   {
     "id": "10-things-i-hate-about-you",
@@ -171,6 +214,72 @@ export const movies: Movie[] = [
     "posterUrl": "./posters/the-proposal.jpg"
   },
   {
+    "id": "no-strings-attached",
+    "title": "No Strings Attached",
+    "year": 2011,
+    "description": "Two longtime acquaintances decide to keep their relationship strictly physical and uncomplicated, only to discover that feelings are significantly less cooperative than expected.",
+    "short": "A no-feelings arrangement meets some very uncooperative feelings.",
+    "tags": [
+      "Flirty",
+      "Friends-to-Lovers",
+      "Funny",
+      "Casual-to-Serious"
+    ],
+    "why": "A flawless plan involving absolutely no feelings whatsoever. Obviously.",
+    "runtime": 108,
+    "color": "#9d5576",
+    "posterUrl": "./posters/no-strings-attached.jpg",
+    "filterTags": [
+      "Funny",
+      "Flirty",
+      "Friends-to-Lovers"
+    ]
+  },
+  {
+    "id": "friends-with-benefits",
+    "title": "Friends with Benefits",
+    "year": 2011,
+    "description": "Two friends decide they can add intimacy to their friendship without making things romantic, which goes about as successfully as expected.",
+    "short": "Two friends test a supposedly foolproof no-romance arrangement.",
+    "tags": [
+      "Flirty",
+      "Funny",
+      "Friends-to-Lovers",
+      "2010s"
+    ],
+    "why": "Another group of intelligent adults confidently discovering that feelings exist.",
+    "runtime": 109,
+    "color": "#9d5576",
+    "posterUrl": "./posters/friends-with-benefits.jpg",
+    "filterTags": [
+      "Funny",
+      "Flirty",
+      "Friends-to-Lovers"
+    ]
+  },
+  {
+    "id": "love-other-drugs",
+    "title": "Love & Other Drugs",
+    "year": 2010,
+    "description": "A charming pharmaceutical salesman meets a fiercely independent woman who has no interest in a conventional relationship, but their casual connection gradually becomes much more serious.",
+    "short": "A casual connection turns into something neither of them planned.",
+    "tags": [
+      "Flirty",
+      "Emotional",
+      "Chemistry",
+      "2010s"
+    ],
+    "why": "Because apparently “keeping things casual” has never once worked in a romance movie.",
+    "runtime": 112,
+    "color": "#9d5576",
+    "posterUrl": "./posters/love-other-drugs.jpg",
+    "filterTags": [
+      "Flirty",
+      "Emotional",
+      "Slow Burn"
+    ]
+  },
+  {
     "id": "crazy-stupid-love",
     "title": "Crazy, Stupid, Love.",
     "year": 2011,
@@ -186,6 +295,28 @@ export const movies: Movie[] = [
     "runtime": 118,
     "color": "#866b51",
     "posterUrl": "./posters/crazy-stupid-love.jpg"
+  },
+  {
+    "id": "silver-linings-playbook",
+    "title": "Silver Linings Playbook",
+    "year": 2012,
+    "description": "Two people dealing with complicated personal lives form an unconventional friendship after agreeing to help each other achieve their separate goals.",
+    "short": "Two complicated lives meet through an unconventional friendship.",
+    "tags": [
+      "Messy",
+      "Funny",
+      "Emotional",
+      "Unconventional Romance"
+    ],
+    "why": "Two slightly chaotic people helping each other while pretending everything is completely under control.",
+    "runtime": 122,
+    "color": "#9d5576",
+    "posterUrl": "./posters/silver-linings-playbook.jpg",
+    "filterTags": [
+      "Funny",
+      "Emotional",
+      "Slow Burn"
+    ]
   },
   {
     "id": "letters-to-juliet",
@@ -291,4 +422,4 @@ export const movies: Movie[] = [
   }
 ];
 export const filters = ["All", "Funny", "Cozy", "Flirty", "Emotional", "Classics", "2000s", "Slow Burn", "Friends-to-Lovers"];
-export function matchesFilter(m: Movie, filter: string) { if(filter === "All") return true; if(filter === "2000s") return m.year >= 2000 && m.year <= 2009; if(filter === "Classics") return m.year < 2000 || m.tags.some(t => t.includes("Classic")); return m.tags.some(t => t.toLowerCase().includes(filter.toLowerCase())) || (filter === "Funny" && m.tags.includes("Rom-Com")); }
+export function matchesFilter(m: Movie, filter: string) { if(filter === "All") return true; if(m.filterTags?.includes(filter)) return true; if(filter === "2000s") return m.year >= 2000 && m.year <= 2009; if(filter === "Classics") return m.year < 2000 || m.tags.some(t => t.includes("Classic")); return m.tags.some(t => t.toLowerCase().includes(filter.toLowerCase())) || (filter === "Funny" && m.tags.includes("Rom-Com")); }

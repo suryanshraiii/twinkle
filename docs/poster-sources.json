@@ -8,6 +8,14 @@
     "bytes": 26601
   },
   {
+    "id": "before-sunrise",
+    "title": "Before Sunrise",
+    "sourcePage": "https://en.wikipedia.org/wiki/Before_Sunrise",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/da/Before_Sunrise_poster.jpg",
+    "localPath": "/posters/before-sunrise.jpg",
+    "bytes": 19239
+  },
+  {
     "id": "how-to-lose-a-guy-in-10-days",
     "title": "How to Lose a Guy in 10 Days",
     "sourcePage": "https://en.wikipedia.org/wiki/How_to_Lose_a_Guy_in_10_Days",
@@ -30,6 +38,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/A_Walk_to_Remember_Poster.jpg",
     "localPath": "/posters/a-walk-to-remember.jpg",
     "bytes": 46882
+  },
+  {
+    "id": "me-before-you",
+    "title": "Me Before You",
+    "sourcePage": "https://en.wikipedia.org/wiki/Me_Before_You_(film)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Me_Before_You_%28film%29.jpg",
+    "localPath": "/posters/me-before-you.jpg",
+    "bytes": 107909
   },
   {
     "id": "10-things-i-hate-about-you",
@@ -80,12 +96,44 @@
     "bytes": 65337
   },
   {
+    "id": "no-strings-attached",
+    "title": "No Strings Attached",
+    "sourcePage": "https://en.wikipedia.org/wiki/No_Strings_Attached_(film)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/No_Strings_Attached_Poster.jpg",
+    "localPath": "/posters/no-strings-attached.jpg",
+    "bytes": 105788
+  },
+  {
+    "id": "friends-with-benefits",
+    "title": "Friends with Benefits",
+    "sourcePage": "https://en.wikipedia.org/wiki/Friends_with_Benefits_(film)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Friends_with_benefits_poster.jpg",
+    "localPath": "/posters/friends-with-benefits.jpg",
+    "bytes": 107036
+  },
+  {
+    "id": "love-other-drugs",
+    "title": "Love & Other Drugs",
+    "sourcePage": "https://en.wikipedia.org/wiki/Love_%26_Other_Drugs",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Love_%26_Other_Drugs_Poster.jpg",
+    "localPath": "/posters/love-other-drugs.jpg",
+    "bytes": 97621
+  },
+  {
     "id": "crazy-stupid-love",
     "title": "Crazy, Stupid, Love.",
     "sourcePage": "https://en.wikipedia.org/wiki/Crazy,_Stupid,_Love",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/CrazyStupidLovePoster.jpg",
     "localPath": "/posters/crazy-stupid-love.jpg",
     "bytes": 107646
+  },
+  {
+    "id": "silver-linings-playbook",
+    "title": "Silver Linings Playbook",
+    "sourcePage": "https://en.wikipedia.org/wiki/Silver_Linings_Playbook",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Silver_Linings_Playbook_Poster.jpg",
+    "localPath": "/posters/silver-linings-playbook.jpg",
+    "bytes": 96074
   },
   {
     "id": "letters-to-juliet",
